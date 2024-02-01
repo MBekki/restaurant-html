@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+
+    <nav class="navbar navbar-dark bg-transparent">
+      <div class="container-fluid d-flex justify-content-center">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          style="width: 300px"
+          class="offcanvas offcanvas-start text-bg-dark"
+          tabindex="-1"
+          id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel"
+        >
+          <div class="offcanvas-header d-flex justify-content-end">
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item text-center">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar -->
+
+    <!-- header -->
+    <div class="container-fluid header">
+      <div class="container">
+        <div class="d-flex justify-content-center">
+          <img
+            src="https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/1f7591a43d715b62a6734fb0/Untitled-1.png"
+            alt=""
+          />
+        </div>
+        <h1 class="text-center text-white mt-5 pt-2">
+          One Step to Making a <br />
+          Good Start
+        </h1>
+        <p>
+          Mauris fermentum tortor non enim aliquet condimentum. Nam aliquam
+          pretium feugiat. Duis sem est, viverra eu interdum ac, suscipit nec
+          mauris. Suspendisse commodo tempor sagittis! In justo est,
+          sollicitudin eu scelerisque pretium, placerat eget elit.
+        </p>
+        <p class="text-center">
+          <i
+            class="fa-solid fa-caret-down text-center"
+            style="margin-top: 50px; font-size: 80px; color: white"
+          ></i>
+        </p>
+      </div>
+    </div>
+    <!-- header -->
+
+    <!-- our menu -->
+    <div class="container-fluid mt-5 our-menu">
+      <div class="container">
+        <h4 class="fw-normal text-center">OUR MENU</h4>
+        <h1 class="text-center fw-bolder">Delicious From The Chef</h1>
+        <div class="row">
+          <div class="row row-gap-3 mt-5 px-md-5 mx-xl-5">
+            <div class="col-sm-12 col-md-6">
+              <div>
+                <h5 class="fw-normal fs-5 text-center">PEAR SALAD / $11</h5>
+                <p class="text-center">
+                  Reid’s Orchard Pears / Bitter Greens / Granola / Big Firefly /
+                  Farms Black and Blue / Pine Nut Vinaigrette
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <div>
+                <h5 class="fw-normal fs-5 text-center">
+                  BRODETTO DI PESCE / $9
+                </h5>
+                <p class="text-center">
+                  Adriatic Seafood Soup / Clams / Prawns / Livornese /
+                  Langoustine Scallop / Celery / Olive
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row row-gap-3 mt-5 px-md-5 mx-xl-5">
+            <div class="col-sm-12 col-md-6">
+              <div>
+                <h5 class="fw-normal fs-5 text-center">FARM GREENS / $9</h5>
+                <p class="text-center">
+                  Honey Vinaigrette / House Cheese Crouton / Fine Herbs
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <div>
+                <h5 class="fw-normal fs-5 text-center">GRILLED KALE / $9</h5>
+                <p class="text-center">
+                  Bitter Greens / House Cheese Crouton / Kamon Iberico
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row row-gap-3 mt-5 px-md-5 mx-xl-5">
+            <div class="col-sm-12 col-md-6">
+              <div>
+                <h5 class="fw-normal fs-5 text-center">RICOTTA GNUD / $18</h5>
+                <p class="text-center">
+                  Marinated Sardine / Red Currant / Chanterelles / Pine Nuts /
+                  Mantecato Vitello / Fennel / Olive / Pepitas
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <div>
+                <h5 class="fw-normal fs-5 text-center">CANESTRELLI / $18</h5>
+                <p class="text-center">
+                  Reid Orchatd Pears / Bitter Greens / House Cheese Crouton /
+                  Marinated Sardine / Chanterelles / Clams
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- our menu -->
+
+    <!-- desert -->
+    <div class="container-fluid desert mt-5">
+      <div class="container">
+        <div class="d-flex justify-content-end">
+          <div class="row desert-section row-gap-3">
+            <div class="row row-gap-4">
+              <div class="col-sm-6 col-6 col-lg-4">
+                <div class="desert-card">
+                  <h1 class="text-center">
+                    <i
+                      class="fa-solid fa-ice-cream text-white"
+                      style="font-size: 40px"
+                    ></i>
+                  </h1>
+                  <p class="text-center text-white fs-6">TOP ICE-CREAM</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-6 col-lg-4">
+                <div class="desert-card">
+                  <h1 class="text-center">
+                    <i
+                      class="fa-solid fa-wine-glass text-white"
+                      style="font-size: 40px"
+                    ></i>
+                  </h1>
+                  <p class="text-center text-white fs-6">FRUIT SORBETS</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-6 col-lg-4">
+                <div class="desert-card">
+                  <h1 class="text-center">
+                    <i
+                      class="fa-solid fa-ice-cream text-white"
+                      style="font-size: 40px"
+                    ></i>
+                  </h1>
+                  <p class="text-center text-white fs-6">CHIP FLAVORS</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-6 col-lg-4">
+                <div class="desert-card">
+                  <h1 class="text-center">
+                    <i
+                      class="fa-solid fa-ice-cream text-white"
+                      style="font-size: 40px"
+                    ></i>
+                  </h1>
+                  <p class="text-center text-white fs-6">SUNDAES</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-6 col-lg-4">
+                <div class="desert-card">
+                  <h1 class="text-center">
+                    <i
+                      class="fa-solid fa-champagne-glasses text-white"
+                      style="font-size: 40px"
+                    ></i>
+                  </h1>
+                  <p class="text-center text-white fs-6">SMOOTHIES</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-6 col-lg-4">
+                <div class="desert-card">
+                  <h1 class="text-center">
+                    <i
+                      class="fa-solid fa-martini-glass-citrus text-white"
+                      style="font-size: 40px"
+                    ></i>
+                  </h1>
+                  <p class="text-center text-white fs-6">DRINKS & MORE</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- desert -->
+
+    <!-- about -->
+    <div class="container-fluid mt-5 pt-5">
+      <div class="container">
+        <div class="row g-0 GNUD align-items-center px-lg-5 mx-xl-5">
+          <div class="col-sm-12 col-md-4">
+            <div>
+              <img
+                style="height: 334px; object-fit: cover"
+                width="100%"
+                src="https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/62c4998046a15404b6087759/pexels-marta-dzedyshko-2067396.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="p-3">
+              <p class="text-center fs-5 text-uppercase fw-normal">History</p>
+              <h4 class="text-center">
+                Strange story of the emergence of healthy food
+              </h4>
+              <p class="text-center">
+                Sample text. Click to select the text box. Click again or double
+                click to start editing the text.
+              </p>
+              <p class="text-center">
+                <a style="color: black" href="#">READ MORE</a>
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div>
+              <img
+                style="height: 334px; object-fit: cover"
+                width="100%"
+                src="https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/1a2b51f955095ac4927b66b5/pexels-photo-4099237.jpeg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="p-3">
+              <p class="text-center fs-5 text-uppercase fw-normal">COMUNITY</p>
+              <h4 class="text-center">
+                Healthy food in social networks, with us interesting
+              </h4>
+              <p class="text-center">
+                Sample text. Click to select the text box. Click again or double
+                click to start editing the text.
+              </p>
+              <p class="text-center">
+                <a style="color: black" href="#">READ MORE</a>
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div>
+              <img
+                style="height: 334px; object-fit: cover"
+                width="100%"
+                src="https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/1d2b8399c28556d891209d24/pexels-photo-949069.jpeg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <div class="p-3">
+              <p class="text-center fs-5 text-uppercase fw-normal">
+                PHILOSOPHY
+              </p>
+              <h4 class="text-center">
+                Only the best food, the best musicians the best guests
+              </h4>
+              <p class="text-center">
+                Sample text. Click to select the text box. Click again or double
+                click to start editing the text.
+              </p>
+              <p class="text-center">
+                <a style="color: black" href="#">READ MORE</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- about -->
+
+    <!-- health -->
+    <div class="container-fluid healthy mt-5">
+      <div class="container">
+        <div class="row row-gap-5 align-items-center px-lg-5 mx-xl-5">
+          <div class="col-sm-12 col-md-6">
+            <div>
+              <h1 class="">
+                Health is the most <br />
+                precious
+              </h1>
+              <p class="mt-3">
+                While it is important to have naturally occurring sugars in your
+                diet, many foods contain harmful added sugars that contain no
+                nutritional value.
+              </p>
+              <p class="mt-3">
+                According to a study conducted by the University of Florida, the
+                brain releases heroin-like chemicals called endogenous opioids
+                when an individual indulges on sweet, salty or fatty foods.
+              </p>
+              <p style="margin-top: 40px">
+                <a href="#" class="text-black">READ MORE</a>
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <img
+              style="height: 500px; object-fit: cover"
+              width="100%"
+              src="https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/86ef7f7fd2c954e0a3666806/pexels-photo-5591663.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <img
+              style="height: 500px; object-fit: cover"
+              width="100%"
+              src="https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/78f20ec59515577983c1b439/pexels-photo-5591712.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <div>
+              <p class="fs-5 fw-normal">BAKERY</p>
+              <h1 class="">Reviews</h1>
+              <p class="mt-3">
+                We bring the season’s best mix of organic produce and
+                hand-crafted farm products conveniently to your door by growing
+                and partnering with local farms and artisans in your area.
+              </p>
+              <p style="margin-top: 40px">– LOO HUDSON</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- health -->
+
+    <!-- carusel  -->
+
+    <div class="container-fluid mt-5">
+      <div class="container">
+        <h1 style="font-size: 48px" class="text-center">
+          Learn Cooking Online
+        </h1>
+        <p class="text-center">
+          Sample text. Click to select the text box. Click again or double click
+          to start editing the text.
+        </p>
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide mt-5"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row px-md-5 row-gap-4 mx-lg-5">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                  <img
+                    src="https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/37d3974a47c758978b1525d8/black-and-silver-coffee-maker-on-white-wooden-kitchen-4816319.jpg?version="
+                    class="d-block"
+                    width="100%"
+                    style="height: 335px; object-fit: cover"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                  <img
+                    src="https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/8af726c84f165b2cba66bccc/breakfast-meals-on-table-803897.jpg?version="
+                    class="d-block"
+                    width="100%"
+                    style="height: 335px; object-fit: cover"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                  <img
+                    src="https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/aa13bda9873c5eaeb39921c9/pexels-photo-4193838.jpeg?version="
+                    class="d-block"
+                    width="100%"
+                    style="height: 335px; object-fit: cover"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row px-md-5 row-gap-4 mx-lg-5">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                  <img
+                    src="https://images02.nicepage.com/a1389d7bc73adea1e1c1fb7e/a8c81e2cd4f7527ea10bf801/white-and-brown-cake-on-white-ceramic-plate-4110001.jpg?version="
+                    class="d-block"
+                    width="100%"
+                    style="height: 335px; object-fit: cover"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                  <img
+                    src="https://images02.nicepage.com/a1389d7bc73adea1e1c1fb7e/fdeede756ad75134b8ffb6f2/close-up-photo-of-sliced-chocolate-cake-4110008.jpg?version="
+                    class="d-block"
+                    width="100%"
+                    style="height: 335px; object-fit: cover"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                  <img
+                    src="https://images02.nicepage.com/a1389d7bc73adea1e1c1fb7e/5032c32a65c05be9a3615fc4/bakery-baking-berry-breakfast-213780.jpg?version="
+                    class="d-block"
+                    width="100%"
+                    style="height: 335px; object-fit: cover"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <p class="text-center mt-5">
+          <a href="" class="text-black">READ MORE</a>
+        </p>
+      </div>
+    </div>
+    <!-- carusel  -->
+
+    <!--  -->
+    <div class="container-fluid">
+      <div id="image-group"></div>
+
+      <div id="modal">
+        <button id="modalbuttton" onclick="Close()">
+          <i class="fa-regular fa-circle-xmark"></i>
+        </button>
+        <div id="action">
+          <button onclick="Prev()">
+            <i class="fa-solid fa-left-long"></i>
+          </button>
+          <img id="modal_img" src="./1.jpg" alt="" />
+          <button onclick="Next()">
+            <i class="fa-solid fa-right-long"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!--  -->
+
+    <!--  -->
+    <div class="container mt-5 py-5 fw-bold">
+      <p class="text-center fs-3">
+        We bring the season’s best mix of organic produce and hand-crafted farm
+        <br />
+        products conveniently to your door by growing and partnering with local
+        farms and <br />
+        artisans in your area.
+      </p>
+      <div class="d-flex gap-4 justify-content-center fs-3 mt-5">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+    </div>
+    <!--  -->
+
+    <!-- footer -->
+    <div class="container-fluid footer">
+      <div class="container text-white">
+        <p class="text-center">
+          Sample text. Click to select the text box. Click again or double
+          <br />click to start editing the text.
+        </p>
+        <div class="mt-5">
+          <p class="text-center">
+            <a href="#"> Website Templates </a>
+            created with
+            <a href="">Website Builder Software.</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
